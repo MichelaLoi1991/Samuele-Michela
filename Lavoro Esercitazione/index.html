@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+ 
+ <!-- Questo importa il css di Boostrap, lo trovi nella documentazione ufficiale del framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Link di collegamento con il file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar Boostrap -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <header class="head-banner text-white text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-9 mx-auto">
+                  <h1>Landing Page di prova fatta con un tutorial su YouTube</h1>
+              </div>
+          </div>
+      </div>
+    </header>
+
+  <section class="sezione-icone bg-light text-center">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="mb-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-badge-4k-fill" viewBox="0 0 16 16">
+                    <path d="M3.577 8.9v.03h1.828V5.898h-.062a47 47 0 0 0-1.766 3.001z"/>
+                    <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm2.372 3.715.435-.714h1.71v3.93h.733v.957h-.733V11H5.405V9.888H2.5v-.971c.574-1.077 1.225-2.142 1.872-3.202m7.73-.714h1.306l-2.14 2.584L13.5 11h-1.428l-1.679-2.624-.615.7V11H8.59V5.001h1.187v2.686h.057L12.102 5z"/>
+                  </svg>
+                    <h3>Display</h3>
+                    <p class="lead mb-0">Perfino il display è un genio.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="mb-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
+                    <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+                  </svg>
+                  <h3>Processore</h3>
+                    <p class="lead mb-0">A17 Pro.
+                      Chip da record. Prestazioni da paura.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="mb-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                    <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                    <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/>
+                  </svg>
+                  <h3>Fotocamera</h3>
+                    <p class="lead mb-0">iPhone 15 Pro Max ha lo zoom ottico più potente mai visto su un iPhone. E si vede.</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+  </section>
+
+  <section class="sezione-immagini">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-lg-6 order-lg-2 immagine" style="background-image: url(https://www.apple.com/newsroom/videos/iphone-15-pro-action-button/posters/Apple-iPhone-15-Pro-lineup-Action-button-230912.jpg.large_2x.jpg);"></div>
+            <div class="col-lg-6 order-lg-1 testo">
+              <h2>Super Retina XDR</h2>
+              <p>iPhone 15 Pro ha un evoluto display Super Retina XDR con ProMotion, che porta il refresh rate a 120Hz, quando hai bisogno di performance grafiche eccezionali, e lo diminuisce quando non serve, per risparmiare batteria. La Dynamic Island ti mostra notifiche e attività in tempo reale, così non perdi di vista nulla anche se stai facendo altro. La tua corsa in car sharing, il risultato delle partite di campionato, lo stato del volo: hai sempre tutto sotto controllo. Con il display always-on, la schermata di blocco è sempre in vista: non ti serve toccarla per sapere se ci sono novità. E grazie ad algoritmi intelligenti, iPhone capisce quando lo tieni in tasca o a faccia in giù e spegne il display per risparmiare batteria</p></div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 immagine" style="background-image: url(https://gagadget.com/media/uploads/iphone-15-pro-vai-rodar-death.jpg);"></div>
+            <div class="col-lg-6 testo">
+              <h2>A17 Pro</h2>
+              <p>Il chip A17 Pro apre un’era totalmente nuova per iPhone, portandoti le performance grafiche migliori di sempre.
+
+                I giochi su dispositivo mobile saranno superimmersivi, con ambienti incredibilmente dettagliati e personaggi più realistici. E grazie a velocità ed efficienza al top nel settore, A17 Pro ti fa volare alto. Per la prima volta, iPhone 15 Pro usa il ray tracing con accelerazione hardware, che è fino a quattro volte più veloce di quello basato su software, per darti una grafica più fluida e una resa della luce ancora più realistica. Non si è mai visto un ray tracing così veloce su uno smartphone.
+
+                L’upscaling di MetalFX combina le prestazioni della GPU e del Neural Engine per creare effetti grafici ad alta definizione usando molta meno energia. Così puoi giocare per ore, senza interruzioni.</p></div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 order-lg-2 immagine" style="background-image: url(https://gizchina.it/wp-content/uploads/2023/04/Apple-iphone-15-pro-max-fotocamera-sensore.jpg);"></div>
+            <div class="col-lg-6 order-lg-1 testo">
+              <h2>Sistema di fotocamere Pro</h2>
+              <p>Con iPhone 15 Pro puoi scegliere tra diverse lunghezze focali: è come avere sette obiettivi professionali in tasca, sempre e ovunque. La fotocamera principale da 48MP è più evoluta che mai: scatta foto a una risoluzione altissima con un nuovo livello di dettaglio e colore.
+
+                I ritratti saranno visibilmente più belli. E ora non c’è neanche più bisogno di passare alla modalità Ritratto: se il soggetto è una persona, un cane o un gatto, iPhone acquisisce automaticamente i dati sulla profondità di campo. Così puoi subito vedere la tua foto trasformata in ritratto, con un elegante effetto sfocato. O farlo dopo, nell’app Foto.</p></div>
+        </div>
+    </div>
+</section>
+
+        
+<!-- Sezione recensioni clienti -->
+    <section class="prodotti text-center bg-light">  
+<div class="container">
+      <div class="row">
+        <h2 class="mb-5">I nostri prodotti Apple</h2>
+            <div class="col-lg-4">
+                 <div class="prodotto-singolo mx-auto mb-5 mb-lg-0">
+                      <img class="rounded-circle mb-3" src="https://www.tradeinn.com/f/13777/137777424/apple-ipad-air-64gb-10.9.jpg" alt="">
+                      <h5>iPad Air</h5>
+                      <p class="font-weight-light mb-0">Leggero. Colorato.
+                        Con un chip esagerato.</p>
+                </div>
+             </div>
+             <div class="col-lg-4">
+              <div class="prodotto-singolo mx-auto mb-5 mb-lg-0">
+                   <img class="rounded-circle mb-3" src="https://www.tradeinn.com/f/14062/140622451/apple-macbook-pro-13-m2-8cpu-16cgpu-8gb-256gb-ssd.jpg" alt="">
+                   <h5>Mac</h5>
+                   <p class="font-weight-light mb-0">
+                    Il portatile Mac più conveniente per fare tutto al volo.</p>
+             </div>
+          </div> 
+          <div class="col-lg-4">
+            <div class="prodotto-singolo mx-auto mb-5 mb-lg-0">
+                 <img class="rounded-circle mb-3" src="https://www.tradeinn.com/f/14041/140417016/cool-gomma-leash-apple-watch-42-44-45-mm.jpg" alt="">
+                 <h5>Apple Watch</h5>
+                 <p class="font-weight-light mb-0">
+                  Più veloce, più smart, sempre più brillante.
+                  Con un tocco di stile.</p>
+           </div>
+        </div>  
+      </div>
+  </div>
+    </section>  
+    
+    <section class="newsletter text-white text-center">
+        <div class="container">
+              <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                          <h2 class="mb-4">Iscriviti alla nostra newsletter!</h2>
+                    </div>
+                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                        <form>
+                            <div class="form-row">
+                               <div class= "col-12.col-md-9 mb-2 mb-md-0">
+                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                               </div> 
+                               <div class="col-12 col-md-3">
+                                     <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                               </div> 
+                            </div>
+                        </form>
+                    </div>
+              </div>
+        </div>
+
+
+
+    </section>
+
+
+  <!-- Questo è il bundle js di Boostrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
